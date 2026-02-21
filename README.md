@@ -6,6 +6,8 @@
 
 A comprehensive Power Apps Component Framework (PCF) standard control that displays an Activity Summary card on model-driven forms. This control provides real-time activity metrics, due date filtering, and detailed last activity information for any record in Dataverse.
 
+![Activity Summary Control](images/activity-summary-screenshot.png)
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -32,7 +34,7 @@ The Activity Summary control provides a comprehensive view of all activities ass
 
 Perfect for Account, Contact, Opportunity, or any custom entity where activity visibility is important.
 
-![Activity Summary Control](images/activity-summary-screenshot.png)
+
 
 ## ✨ Features
 
