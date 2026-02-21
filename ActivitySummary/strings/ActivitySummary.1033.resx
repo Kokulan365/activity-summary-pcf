@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute name="xml:space" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute name="xml:space" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivitySummary_DisplayName" xml:space="preserve">
+    <value>Activity Summary</value>
+  </data>
+  <data name="ActivitySummary_Display_Key" xml:space="preserve">
+    <value>Activity Summary</value>
+  </data>
+  <data name="ActivitySummary_Desc_Key" xml:space="preserve">
+    <value>Displays activity summary card with totals and last activity information</value>
+  </data>
+  <data name="BannerColor_Display_Key" xml:space="preserve">
+    <value>Banner Color</value>
+  </data>
+  <data name="BannerColor_Desc_Key" xml:space="preserve">
+    <value>Hex color code for the banner (e.g., #2B579A)</value>
+  </data>
+  <data name="CardTitleLabel_Display_Key" xml:space="preserve">
+    <value>Card Title Label</value>
+  </data>
+  <data name="CardTitleLabel_Desc_Key" xml:space="preserve">
+    <value>Label for the card title</value>
+  </data>
+  <data name="ShowCardTitle_Display_Key" xml:space="preserve">
+    <value>Show Card Title</value>
+  </data>
+  <data name="ShowCardTitle_Desc_Key" xml:space="preserve">
+    <value>Show or hide the card title</value>
+  </data>
+  <data name="CardTitleColor_Display_Key" xml:space="preserve">
+    <value>Card Title Color</value>
+  </data>
+  <data name="CardTitleColor_Desc_Key" xml:space="preserve">
+    <value>Hex color code for the card title text (e.g., #323130 for black)</value>
+  </data>
+  <data name="ButtonBackgroundColor_Display_Key" xml:space="preserve">
+    <value>Button Background Color</value>
+  </data>
+  <data name="ButtonBackgroundColor_Desc_Key" xml:space="preserve">
+    <value>Hex color code for the "Open Activity" button background (e.g., #0078d4 for blue)</value>
+  </data>
+  <data name="ButtonTextColor_Display_Key" xml:space="preserve">
+    <value>Button Text Color</value>
+  </data>
+  <data name="ButtonTextColor_Desc_Key" xml:space="preserve">
+    <value>Hex color code for the "Open Activity" button text (e.g., #ffffff for white)</value>
+  </data>
+  <data name="TotalActivitiesLabel_Display_Key" xml:space="preserve">
+    <value>Total Activities Label</value>
+  </data>
+  <data name="TotalActivitiesLabel_Desc_Key" xml:space="preserve">
+    <value>Label for total activities count</value>
+  </data>
+  <data name="OpenActivitiesLabel_Display_Key" xml:space="preserve">
+    <value>Open Activities Label</value>
+  </data>
+  <data name="OpenActivitiesLabel_Desc_Key" xml:space="preserve">
+    <value>Label for open activities count</value>
+  </data>
+  <data name="LastActivitySectionLabel_Display_Key" xml:space="preserve">
+    <value>Last Activity Section Label</value>
+  </data>
+  <data name="LastActivitySectionLabel_Desc_Key" xml:space="preserve">
+    <value>Label for the last activity section header</value>
+  </data>
+  <data name="LastActivityModifiedOnLabel_Display_Key" xml:space="preserve">
+    <value>Last Activity Modified On Label</value>
+  </data>
+  <data name="LastActivityModifiedOnLabel_Desc_Key" xml:space="preserve">
+    <value>Label for last activity modified on field</value>
+  </data>
+  <data name="LastActivityTypeLabel_Display_Key" xml:space="preserve">
+    <value>Last Activity Type Label</value>
+  </data>
+  <data name="LastActivityTypeLabel_Desc_Key" xml:space="preserve">
+    <value>Label for last activity type field</value>
+  </data>
+  <data name="LastActivitySubjectLabel_Display_Key" xml:space="preserve">
+    <value>Last Activity Subject Label</value>
+  </data>
+  <data name="LastActivitySubjectLabel_Desc_Key" xml:space="preserve">
+    <value>Label for last activity subject field</value>
+  </data>
+  <data name="LastActivityDescriptionLabel_Display_Key" xml:space="preserve">
+    <value>Last Activity Description Label</value>
+  </data>
+  <data name="LastActivityDescriptionLabel_Desc_Key" xml:space="preserve">
+    <value>Label for last activity description field</value>
+  </data>
+  <data name="ShowDescription_Display_Key" xml:space="preserve">
+    <value>Show Description</value>
+  </data>
+  <data name="ShowDescription_Desc_Key" xml:space="preserve">
+    <value>Whether to show the description field in the last activity section</value>
+  </data>
+  <data name="MaxDescriptionLines_Display_Key" xml:space="preserve">
+    <value>Max Description Lines</value>
+  </data>
+  <data name="MaxDescriptionLines_Desc_Key" xml:space="preserve">
+    <value>Maximum number of lines to show for description before truncating</value>
+  </data>
+  <data name="AnchorField_Display_Key" xml:space="preserve">
+    <value>Anchor field</value>
+  </data>
+  <data name="AnchorField_Desc_Key" xml:space="preserve">
+    <value>Bind any column (e.g. Name) so this control appears in the form. Value is not used by the control.</value>
+  </data>
+  <data name="TileFooterColor_Display_Key" xml:space="preserve">
+    <value>Tile Footer Color</value>
+  </data>
+  <data name="TileFooterColor_Desc_Key" xml:space="preserve">
+    <value>Hex color for the footer bar of each KPI tile (e.g., #107c10)</value>
+  </data>
+  <data name="ShowTileSection_Display_Key" xml:space="preserve">
+    <value>Show tile section</value>
+  </data>
+  <data name="ShowTileSection_Desc_Key" xml:space="preserve">
+    <value>Show or hide the entire KPI tiles area</value>
+  </data>
+  <data name="ShowTotalActivities_Display_Key" xml:space="preserve">
+    <value>Show Total Activities tile</value>
+  </data>
+  <data name="ShowTotalActivities_Desc_Key" xml:space="preserve">
+    <value>Show the Total activities count tile</value>
+  </data>
+  <data name="ShowOpenActivities_Display_Key" xml:space="preserve">
+    <value>Show Open Activities tile</value>
+  </data>
+  <data name="ShowOpenActivities_Desc_Key" xml:space="preserve">
+    <value>Show the Open activities count tile</value>
+  </data>
+  <data name="ShowOverdueActivities_Display_Key" xml:space="preserve">
+    <value>Show Overdue Activities tile</value>
+  </data>
+  <data name="ShowOverdueActivities_Desc_Key" xml:space="preserve">
+    <value>Show the Overdue activities count tile</value>
+  </data>
+  <data name="ShowDueToday_Display_Key" xml:space="preserve">
+    <value>Show Due today tile</value>
+  </data>
+  <data name="ShowDueToday_Desc_Key" xml:space="preserve">
+    <value>Show the Due today count tile</value>
+  </data>
+  <data name="ShowDueThisWeek_Display_Key" xml:space="preserve">
+    <value>Show Due this week tile</value>
+  </data>
+  <data name="ShowDueThisWeek_Desc_Key" xml:space="preserve">
+    <value>Show the Due this week count tile</value>
+  </data>
+  <data name="ShowDueThisMonth_Display_Key" xml:space="preserve">
+    <value>Show Due this month tile</value>
+  </data>
+  <data name="ShowDueThisMonth_Desc_Key" xml:space="preserve">
+    <value>Show the Due this month count tile</value>
+  </data>
+  <data name="ShowDueThisYear_Display_Key" xml:space="preserve">
+    <value>Show Due this year tile</value>
+  </data>
+  <data name="ShowDueThisYear_Desc_Key" xml:space="preserve">
+    <value>Show the Due this year count tile</value>
+  </data>
+  <data name="OverdueActivitiesLabel_Display_Key" xml:space="preserve">
+    <value>Overdue Activities Label</value>
+  </data>
+  <data name="OverdueActivitiesLabel_Desc_Key" xml:space="preserve">
+    <value>Label for overdue activities tile</value>
+  </data>
+  <data name="DueTodayLabel_Display_Key" xml:space="preserve">
+    <value>Due Today Label</value>
+  </data>
+  <data name="DueTodayLabel_Desc_Key" xml:space="preserve">
+    <value>Label for due today tile</value>
+  </data>
+  <data name="DueThisWeekLabel_Display_Key" xml:space="preserve">
+    <value>Due This Week Label</value>
+  </data>
+  <data name="DueThisWeekLabel_Desc_Key" xml:space="preserve">
+    <value>Label for due this week tile</value>
+  </data>
+  <data name="DueThisMonthLabel_Display_Key" xml:space="preserve">
+    <value>Due This Month Label</value>
+  </data>
+  <data name="DueThisMonthLabel_Desc_Key" xml:space="preserve">
+    <value>Label for due this month tile</value>
+  </data>
+  <data name="DueThisYearLabel_Display_Key" xml:space="preserve">
+    <value>Due This Year Label</value>
+  </data>
+  <data name="DueThisYearLabel_Desc_Key" xml:space="preserve">
+    <value>Label for due this year tile</value>
+  </data>
+  <data name="ShowLastActivitySection_Display_Key" xml:space="preserve">
+    <value>Show Last activity section</value>
+  </data>
+  <data name="ShowLastActivitySection_Desc_Key" xml:space="preserve">
+    <value>Show or hide the entire Last activity block</value>
+  </data>
+  <data name="ShowCreatedOn_Display_Key" xml:space="preserve">
+    <value>Show Created on</value>
+  </data>
+  <data name="ShowCreatedOn_Desc_Key" xml:space="preserve">
+    <value>Show Created on in Last activity</value>
+  </data>
+  <data name="ShowCreatedBy_Display_Key" xml:space="preserve">
+    <value>Show Created by</value>
+  </data>
+  <data name="ShowCreatedBy_Desc_Key" xml:space="preserve">
+    <value>Show Created by in Last activity</value>
+  </data>
+  <data name="ShowModifiedOn_Display_Key" xml:space="preserve">
+    <value>Show Modified on</value>
+  </data>
+  <data name="ShowModifiedOn_Desc_Key" xml:space="preserve">
+    <value>Show Modified on in Last activity</value>
+  </data>
+  <data name="ShowModifiedBy_Display_Key" xml:space="preserve">
+    <value>Show Modified by</value>
+  </data>
+  <data name="ShowModifiedBy_Desc_Key" xml:space="preserve">
+    <value>Show Modified by in Last activity</value>
+  </data>
+  <data name="ShowType_Display_Key" xml:space="preserve">
+    <value>Show Type</value>
+  </data>
+  <data name="ShowType_Desc_Key" xml:space="preserve">
+    <value>Show activity Type in Last activity</value>
+  </data>
+  <data name="ShowSubject_Display_Key" xml:space="preserve">
+    <value>Show Subject</value>
+  </data>
+  <data name="ShowSubject_Desc_Key" xml:space="preserve">
+    <value>Show Subject in Last activity</value>
+  </data>
+  <data name="LastActivityCreatedOnLabel_Display_Key" xml:space="preserve">
+    <value>Created on Label</value>
+  </data>
+  <data name="LastActivityCreatedOnLabel_Desc_Key" xml:space="preserve">
+    <value>Label for Created on field</value>
+  </data>
+  <data name="LastActivityCreatedByLabel_Display_Key" xml:space="preserve">
+    <value>Created by Label</value>
+  </data>
+  <data name="LastActivityCreatedByLabel_Desc_Key" xml:space="preserve">
+    <value>Label for Created by field</value>
+  </data>
+  <data name="LastActivityModifiedByLabel_Display_Key" xml:space="preserve">
+    <value>Modified by Label</value>
+  </data>
+  <data name="LastActivityModifiedByLabel_Desc_Key" xml:space="preserve">
+    <value>Label for Modified by field</value>
+  </data>
+  <data name="ShowTileIcons_Display_Key" xml:space="preserve">
+    <value>Show tile icons</value>
+  </data>
+  <data name="ShowTileIcons_Desc_Key" xml:space="preserve">
+    <value>Show an icon on each activity tile (clear to hide all icons)</value>
+  </data>
+  <data name="IncludedActivityTypes_Display_Key" xml:space="preserve">
+    <value>Included activity types</value>
+  </data>
+  <data name="IncludedActivityTypes_Desc_Key" xml:space="preserve">
+    <value>Comma-separated list of activity type codes to include in KPIs. Leave empty to include all types. Examples: 4212 (Task), 4207 (Phone Call), 4201 (Email). Format: 4212,4207</value>
+  </data>
+  <data name="LastActivityTypeFilter_Display_Key" xml:space="preserve">
+    <value>Last activity type filter</value>
+  </data>
+  <data name="LastActivityTypeFilter_Desc_Key" xml:space="preserve">
+    <value>Activity type code to filter the last activity. Leave empty to show the last activity of any type. Examples: 4201 (Email), 4212 (Task), 4207 (Phone Call). Only one type code is supported for last activity.</value>
+  </data>
+  <data name="OpenActivityButtonLabel_Display_Key" xml:space="preserve">
+    <value>Open Activity button label</value>
+  </data>
+  <data name="OpenActivityButtonLabel_Desc_Key" xml:space="preserve">
+    <value>Label text for the button that opens the activity record. If left empty, the button text will be dynamic based on activity type (e.g., "Open Email", "Open Task")</value>
+  </data>
+  <data name="ShowVersion_Display_Key" xml:space="preserve">
+    <value>Show version</value>
+  </data>
+  <data name="ShowVersion_Desc_Key" xml:space="preserve">
+    <value>Show the control version number at the bottom (useful for debugging and development environments)</value>
+  </data>
+</root>

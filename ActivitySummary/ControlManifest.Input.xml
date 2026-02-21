@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ActivitySummary" constructor="ActivitySummaryControl" version="1.4.9" display-name-key="ActivitySummary_DisplayName" description-key="ActivitySummary_Desc_Key" control-type="standard">
+    
+    <property name="anchorField" display-name-key="AnchorField_Display_Key" description-key="AnchorField_Desc_Key" of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="bannerColor" display-name-key="BannerColor_Display_Key" description-key="BannerColor_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="#2B579A" />
+    <property name="tileFooterColor" display-name-key="TileFooterColor_Display_Key" description-key="TileFooterColor_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="#107c10" />
+    <property name="cardTitleLabel" display-name-key="CardTitleLabel_Display_Key" description-key="CardTitleLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Activities" />
+    <property name="showCardTitle" display-name-key="ShowCardTitle_Display_Key" description-key="ShowCardTitle_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="cardTitleColor" display-name-key="CardTitleColor_Display_Key" description-key="CardTitleColor_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="#323130" />
+    <property name="buttonBackgroundColor" display-name-key="ButtonBackgroundColor_Display_Key" description-key="ButtonBackgroundColor_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="#0078d4" />
+    <property name="buttonTextColor" display-name-key="ButtonTextColor_Display_Key" description-key="ButtonTextColor_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="#ffffff" />
+    <!-- Tile section -->
+    <property name="showTileSection" display-name-key="ShowTileSection_Display_Key" description-key="ShowTileSection_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="showTotalActivities" display-name-key="ShowTotalActivities_Display_Key" description-key="ShowTotalActivities_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="showOpenActivities" display-name-key="ShowOpenActivities_Display_Key" description-key="ShowOpenActivities_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="showOverdueActivities" display-name-key="ShowOverdueActivities_Display_Key" description-key="ShowOverdueActivities_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showDueToday" display-name-key="ShowDueToday_Display_Key" description-key="ShowDueToday_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showDueThisWeek" display-name-key="ShowDueThisWeek_Display_Key" description-key="ShowDueThisWeek_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showDueThisMonth" display-name-key="ShowDueThisMonth_Display_Key" description-key="ShowDueThisMonth_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showDueThisYear" display-name-key="ShowDueThisYear_Display_Key" description-key="ShowDueThisYear_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="totalActivitiesLabel" display-name-key="TotalActivitiesLabel_Display_Key" description-key="TotalActivitiesLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Total activities" />
+    <property name="openActivitiesLabel" display-name-key="OpenActivitiesLabel_Display_Key" description-key="OpenActivitiesLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Open activities" />
+    <property name="overdueActivitiesLabel" display-name-key="OverdueActivitiesLabel_Display_Key" description-key="OverdueActivitiesLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Overdue activities" />
+    <property name="dueTodayLabel" display-name-key="DueTodayLabel_Display_Key" description-key="DueTodayLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Due today" />
+    <property name="dueThisWeekLabel" display-name-key="DueThisWeekLabel_Display_Key" description-key="DueThisWeekLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Due this week" />
+    <property name="dueThisMonthLabel" display-name-key="DueThisMonthLabel_Display_Key" description-key="DueThisMonthLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Due this month" />
+    <property name="dueThisYearLabel" display-name-key="DueThisYearLabel_Display_Key" description-key="DueThisYearLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Due this year" />
+    <property name="showTileIcons" display-name-key="ShowTileIcons_Display_Key" description-key="ShowTileIcons_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="includedActivityTypes" display-name-key="IncludedActivityTypes_Display_Key" description-key="IncludedActivityTypes_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="" />
+    <!-- Last activity section -->
+    <property name="showLastActivitySection" display-name-key="ShowLastActivitySection_Display_Key" description-key="ShowLastActivitySection_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="lastActivitySectionLabel" display-name-key="LastActivitySectionLabel_Display_Key" description-key="LastActivitySectionLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Last activity" />
+    <property name="showCreatedOn" display-name-key="ShowCreatedOn_Display_Key" description-key="ShowCreatedOn_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="showCreatedBy" display-name-key="ShowCreatedBy_Display_Key" description-key="ShowCreatedBy_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="showModifiedOn" display-name-key="ShowModifiedOn_Display_Key" description-key="ShowModifiedOn_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showModifiedBy" display-name-key="ShowModifiedBy_Display_Key" description-key="ShowModifiedBy_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="false" />
+    <property name="showType" display-name-key="ShowType_Display_Key" description-key="ShowType_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="showSubject" display-name-key="ShowSubject_Display_Key" description-key="ShowSubject_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="showDescription" display-name-key="ShowDescription_Display_Key" description-key="ShowDescription_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="true" />
+    <property name="maxDescriptionLines" display-name-key="MaxDescriptionLines_Display_Key" description-key="MaxDescriptionLines_Desc_Key" of-type="Whole.None" usage="input" required="false" default-value="6" />
+    <property name="lastActivityCreatedOnLabel" display-name-key="LastActivityCreatedOnLabel_Display_Key" description-key="LastActivityCreatedOnLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Created on" />
+    <property name="lastActivityCreatedByLabel" display-name-key="LastActivityCreatedByLabel_Display_Key" description-key="LastActivityCreatedByLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Created by" />
+    <property name="lastActivityModifiedOnLabel" display-name-key="LastActivityModifiedOnLabel_Display_Key" description-key="LastActivityModifiedOnLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Modified on" />
+    <property name="lastActivityModifiedByLabel" display-name-key="LastActivityModifiedByLabel_Display_Key" description-key="LastActivityModifiedByLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Modified by" />
+    <property name="lastActivityTypeLabel" display-name-key="LastActivityTypeLabel_Display_Key" description-key="LastActivityTypeLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Type" />
+    <property name="lastActivitySubjectLabel" display-name-key="LastActivitySubjectLabel_Display_Key" description-key="LastActivitySubjectLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Subject" />
+    <property name="lastActivityDescriptionLabel" display-name-key="LastActivityDescriptionLabel_Display_Key" description-key="LastActivityDescriptionLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="Description" />
+    <property name="lastActivityTypeFilter" display-name-key="LastActivityTypeFilter_Display_Key" description-key="LastActivityTypeFilter_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="" />
+    <property name="openActivityButtonLabel" display-name-key="OpenActivityButtonLabel_Display_Key" description-key="OpenActivityButtonLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="false" default-value="" />
+    <property name="showVersion" display-name-key="ShowVersion_Display_Key" description-key="ShowVersion_Desc_Key" of-type="TwoOptions" usage="input" required="false" default-value="false" />
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/ActivitySummary.css" order="1" />
+      <resx path="strings/ActivitySummary.1033.resx" version="1.0.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
