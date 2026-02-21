@@ -32,6 +32,8 @@ The Activity Summary control provides a comprehensive view of all activities ass
 
 Perfect for Account, Contact, Opportunity, or any custom entity where activity visibility is important.
 
+![Activity Summary Control](images/activity-summary-screenshot.png)
+
 ## ✨ Features
 
 ### Core Functionality
